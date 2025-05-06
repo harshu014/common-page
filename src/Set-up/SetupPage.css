@@ -1,0 +1,141 @@
+.setup-container {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-family: Arial, sans-serif;
+    width: 90%;
+    margin: auto;
+  }
+  
+  .setup-title {
+    font-size: 24px;
+    text-align: left;
+    border-bottom: 1px solid rgb(126, 124, 124);
+    padding-bottom: 20px;
+    margin-top: 70px;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+  .left-content{
+  display:flex;
+  align-Items:center;
+  justify-Content:space-between;
+  width:50%;
+  background-Color:rgba(238, 237, 237, 0.507);
+  padding: 10px 20px;
+  }
+  .right-content{
+    width:50%;
+    background-Color:rgba(238, 237, 237, 0.507);
+    padding: 20px 30px;
+    position: relative;
+  }
+  
+  .description {
+    font-size: 13px;
+    color: #666;
+  }
+  
+  .dashboard-id {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .copy-area {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .copy-button {
+    border: 1px solid #7e1dd8;
+    background-color: #dcd3e4;
+    padding: 4px 12px;
+    border-radius: 4px;
+    color: #7e1dd8;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .copied-text {
+    color: #16a34a;
+    font-size: 13px;
+  }
+  
+  .info-link {
+    color: #3e77c2;
+    font-size: 13px;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  
+  .section-title {
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .data-table {
+    width: 100%;
+    font-size: 14px;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  
+  .data-table th,
+  .data-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .btn {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+    margin-right: 6px;
+    border: none;
+  }
+  
+  .btn.approve {
+    background-color: #bbf7d0;
+    color: green;
+  }
+  
+  .btn.reject {
+    background-color: #fecaca;
+    color: red;
+  }
+  
+  .btn.add {
+    background-color: #facc15;
+    padding: 8px 36px;
+  }
+  
+  .input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 80%;
+  }
+  
+  .add-tablet {
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+  }

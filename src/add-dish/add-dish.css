@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    overflow-x: hidden;
+}
+.add-menu-container{
+  margin-top:60px;
+}
+.add-menu-container h2{
+  width:80%;
+  margin:auto;
+  padding:20px 0;
+}
+.add-menu-container form{
+  display:flex;
+  flex-Wrap:wrap;
+  justify-content:space-between;
+  background-color:white;
+  width:90%;
+  margin:auto;
+  padding:20px;
+}
+.upload-image-container{
+  flex:1 1 40%;
+}
+.image-preview{
+   border:2px dashed grey;
+   width:300px;
+   height:200px;
+}
+.data-upload-container{
+  flex:1 1 60%;
+}
+label{
+  font-size: 18px;
+}
+select, input{
+  margin-bottom: 10px;
+}
+.price-input{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+.price-input input{
+  width: 250px;
+  padding: 7px;
+}
+
+  

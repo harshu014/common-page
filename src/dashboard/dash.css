@@ -1,0 +1,77 @@
+body{
+background-color: rgb(239, 242, 243);
+}
+.dashboard{
+    width: 80%;
+    margin: auto;
+}
+.dash-head{
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.dash-head .right{
+    display: flex;
+    align-items: center;
+}
+.dash-head h3{
+    font-weight: bold;
+    color: black;
+}
+.dash-head button{
+    background-color: rgb(221, 220, 220);
+    padding: 5px 20px;
+    border: none;
+    border-radius: 30px;
+    color: rgb(63, 62, 62);
+    margin-right: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.bell_icon{
+    margin-right: 40px;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.del_icon{
+    width: 30px;
+    height: 30px;
+}
+.user_img{
+    width: 45px;
+    height: 45px;
+}
+.overview{
+    margin-top: 20px;
+}
+.overview h4{
+    color: rgb(46, 45, 45);
+    font-weight: bold;
+}
+.overview-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.overview-container .box{
+    background-color: white;
+    flex: 1 1 15rem;
+    min-height: 180px;
+    border-radius: 10px;
+    border: 1px solid rgb(224, 222, 222);
+}
+.box p{
+    color: rgb(117, 115, 115);
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.box span{
+    font-weight: bold;
+    font-size: 25px;
+}
+.box p, span{
+    margin-left: 20px;
+}

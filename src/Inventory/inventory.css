@@ -1,0 +1,124 @@
+*{
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+}
+.inventory{
+    width: 80%;
+    margin: auto;
+    padding-top: 70px;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.head h2{
+    color: rgb(66, 66, 66);
+    font-size: 29px;
+    font-weight: 600;
+}
+.head .btn-link{
+    color: rgb(0, 110, 255);
+    margin-left: 30px;
+    border: 1px solid rgb(0, 110, 255);
+    border-radius: 40px;
+    padding: 6px 20px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+}
+.head .cancel-btn-link{
+    color: rgb(255, 30, 0);
+    margin-left: 30px;
+    border: 1px solid  rgb(255, 30, 0);
+    border-radius: 40px;
+    padding: 6px 20px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+
+}
+.total p{
+    font-size: 14px;
+    color: rgb(66, 66, 66);
+    margin-bottom: 10px;
+}
+.total span{
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+}
+.filter{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.filter input, select{
+    padding: 8px;
+    width: 300px;
+    margin-right: 50px;
+    color: gray;
+}
+.all-items th{
+    background-color: rgb(225, 248, 248);
+    color: gray;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 100;
+    width: 300px;
+    padding: 10px;
+}
+.all-items td{
+    padding: 6px;
+    text-align: center;
+    border-bottom: 1px solid rgb(197, 197, 197);
+}
+.all-items img{
+    width: 25px;
+    opacity: 0.4;
+
+}
+.reorder-bottom{
+  float: right;
+  margin-top: 40px;
+}
+.reorder-bottom button{
+    margin-right: 10px;
+}
+
+.add-newitem-container h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.input-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.input-box input{
+    width: 220px;
+    padding: 3px;
+}
+.input-middle-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.input-middle-box input{
+    width: 180px;
+    padding: 3px;
+}

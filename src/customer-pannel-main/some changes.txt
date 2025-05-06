@@ -1,0 +1,43 @@
+//   const handleConfirmOrder = async () => {
+//     setIsLoading(true);
+//     try {
+//       const orderDetails = selectedItems.map(item => ({
+//         dish_id: item.id,
+//         quantity: item.quantity,
+//       }));
+
+//       const response = await axios.post(
+//         "http://localhost:3000/api/post-order",
+//         {
+//           tableNo,
+//           orderDetails,
+//         }
+//       );
+//       setOrderId(response.data.order?.id || orderId);
+//       setIsConfirmModalOpen(false);
+//       setIsBillModalOpen(true);
+//     } catch (error) {
+//       console.error("Error placing order:", error);
+//       alert("Failed to place order. Please try again.");
+//     } finally {
+//       setIsLoading(false);
+//     }
+//   };
+
+
+
+
+
+
+payment page timer bar code
+// const [progress, setProgress] = useState(100); //for timer of qr payment
+
+  // useEffect(() => {
+  //   if (progress > 0) {
+  //     const timer = setInterval(() => {
+  //       setProgress(prevProgress => prevProgress - 0.125);
+  //     }, 1000);
+
+  //     return () => clearInterval(timer);
+  //   }
+  // }, [progress]);

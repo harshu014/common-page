@@ -1,0 +1,145 @@
+.edit-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .edit-modal-content {
+    background-color: white;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .edit-modal-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .edit-modal-close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .edit-order-info {
+    margin-bottom: 15px;
+  }
+  
+  .edit-order-info h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .edit-order-date {
+    margin: 5px 0 0;
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  .edit-divider {
+    height: 1px;
+    background-color: #eee;
+    margin: 15px 0;
+  }
+  
+  .edit-order-items {
+    margin-bottom: 15px;
+  }
+  
+  .edit-order-item {
+    margin-bottom: 15px;
+  }
+  
+  .edit-item-details h4 {
+    margin: 0 0 5px;
+    font-size: 1.1rem;
+  }
+  
+  .edit-item-modifier {
+    margin: 0;
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  .edit-item-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .quantity-control {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-control button {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .quantity-control .quantity {
+    margin: 0 10px;
+    font-size: 1rem;
+  }
+  
+  .price-display .price {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .edit-order-total {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    
+  }
+  
+  .edit-total-items, .edit-total-price {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .edit-accept-button {
+    width: 40%;
+    padding: 12px;
+    background-color: #F0D502;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    float: right;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-accept-button:hover {
+    background-color: #45a049;
+  }
